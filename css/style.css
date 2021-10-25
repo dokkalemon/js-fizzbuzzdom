@@ -1,3 +1,5 @@
+/* GENERAL STYLE */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -5,3 +7,17 @@
     font-family: sans-serif;
 }
 
+/* Utility */
+body {
+background-color: #083b4c;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
