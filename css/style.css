@@ -18,6 +18,33 @@ h1 {
     text-align: center;
 }
 
-.container {
+
+.main-container {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+}
+
+.box-container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+background-color: red
 }
