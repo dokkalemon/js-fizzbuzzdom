@@ -36,8 +36,8 @@ h1 {
 }
 
 .box {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     margin: 10px;
     background-color: #1389b2;
     display: flex;
@@ -45,6 +45,14 @@ h1 {
     align-items: center;
 }
 
-.red {
-background-color: red
+.boxFizz {
+background-color: #0ad6a1
+}
+
+.boxBuzz {
+    background-color: #ffd166;
+}
+
+.boxFizzBuzz {
+    background-color: #f0466f;
 }
